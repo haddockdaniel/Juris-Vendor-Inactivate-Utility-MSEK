@@ -147,7 +147,7 @@ namespace JurisUtilityBase
                     foreach (DataRow row in converted.Tables[0].Rows)
                         convertedVendors.Add(Int32.Parse(row["vensysnbr"].ToString()));
 
-                    SQL = "select distinct vensysnbr from Vendor_Log where RecordType = 1";
+                    SQL = "select vensysnbr from Vendor_Log where RecordType = 1 group by vensysnbr having Max([DateTimeStamp]) <= convert(datetime,'" + dt.ToString("yyyyMMdd") + "', 101)";
                     DataSet log = _jurisUtility.RecordsetFromSQL(SQL);
 
                     List<int> tempList = convertedVendors.ToList();
