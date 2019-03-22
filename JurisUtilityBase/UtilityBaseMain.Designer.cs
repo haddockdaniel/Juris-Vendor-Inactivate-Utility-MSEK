@@ -152,7 +152,7 @@
             // labelPercentComplete
             // 
             this.labelPercentComplete.AutoSize = true;
-            this.labelPercentComplete.Location = new System.Drawing.Point(616, 11);
+            this.labelPercentComplete.Location = new System.Drawing.Point(564, 11);
             this.labelPercentComplete.Name = "labelPercentComplete";
             this.labelPercentComplete.Size = new System.Drawing.Size(62, 13);
             this.labelPercentComplete.TabIndex = 0;

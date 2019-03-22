@@ -12,6 +12,7 @@ using JDataEngine;
 using JurisAuthenticator;
 using JurisUtilityBase.Properties;
 using System.Data.OleDb;
+using System.Threading;
 
 namespace JurisUtilityBase
 {
@@ -147,7 +148,7 @@ namespace JurisUtilityBase
                     foreach (DataRow row in converted.Tables[0].Rows)
                         convertedVendors.Add(Int32.Parse(row["vensysnbr"].ToString()));
 
-                    SQL = "select vensysnbr from Vendor_Log where RecordType = 1 group by vensysnbr having Max([DateTimeStamp]) <= convert(datetime,'" + dt.ToString("yyyyMMdd") + "', 101)";
+                    SQL = "select vensysnbr from Vendor_Log where RecordType = 1";
                     DataSet log = _jurisUtility.RecordsetFromSQL(SQL);
 
                     List<int> tempList = convertedVendors.ToList();
@@ -167,6 +168,33 @@ namespace JurisUtilityBase
 
                     SQL = "Update vendor set VenActive = 'N' where vensysnbr not in (1,2) and vensysnbr in (" + IDs + ") and vensysnbr not in  ( Select vchvendor from voucher where vchstatus <>'P') ";
                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
+
+                    log.Clear();
+                    IDs = "";
+
+                    SQL = "select vensysnbr from Vendor_Log where RecordType = 1 and convert(datetime,DateTimeStamp, 101)  <= convert(datetime,'" + dt.ToString("yyyyMMdd") + "', 101)";
+                    log = _jurisUtility.RecordsetFromSQL(SQL);
+
+
+
+                    foreach (int sysnbr in convertedVendors)
+                    {
+                        foreach (DataRow row in log.Tables[0].Rows)
+                        {
+                            if (sysnbr == Int32.Parse(row["vensysnbr"].ToString()))
+                            {
+                                IDs = IDs + row["vensysnbr"].ToString() + ",";
+                            }
+                        }
+                    }
+
+
+                    IDs = IDs.TrimEnd(',');
+
+                    SQL = "Update vendor set VenActive = 'N' where vensysnbr not in (1,2) and vensysnbr in (" + IDs + ") and vensysnbr not in  ( Select vchvendor from voucher where vchstatus <>'P') and VenActive = 'Y'";
+                    int ii = _jurisUtility.ExecuteNonQueryCommand(0, SQL);
+
+                    MessageBox.Show(SQL.ToString());
 
                     SQL = "delete from documenttree where  DTDocClass = 7000 and DTKeyL not in (1,2) and DTKeyL in (Select vensysnbr from vendor WHERE VenActive = 'N')";
                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);

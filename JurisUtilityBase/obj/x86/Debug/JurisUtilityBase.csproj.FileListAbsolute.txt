@@ -119,3 +119,20 @@ C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate 
 C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility MSEK\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.csproj.GenerateResource.Cache
 C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility MSEK\JurisUtilityBase\obj\x86\Debug\JPS - Vendor Inactivate Utility.exe.manifest
 C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility MSEK\JurisUtilityBase\obj\x86\Debug\JPS - Vendor Inactivate Utility.application
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\bin\x86\Debug\JPS - Vendor Inactivate Utility.exe.config
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.csproj.ResolveComReference.cache
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\obj\x86\Debug\JPS - Vendor Inactivate Utility.exe
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\obj\x86\Debug\JPS - Vendor Inactivate Utility.pdb
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\bin\x86\Debug\JPS - Vendor Inactivate Utility.exe.manifest
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\bin\x86\Debug\JPS - Vendor Inactivate Utility.application
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\bin\x86\Debug\JPS - Vendor Inactivate Utility.exe
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\bin\x86\Debug\JPS - Vendor Inactivate Utility.pdb
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.csprojResolveAssemblyReference.cache
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.PrinterDialog.resources
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.ReportDisplay.resources
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.UtilityBaseMain.resources
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.Properties.Resources.resources
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.SplashScreen.resources
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.csproj.GenerateResource.Cache
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\obj\x86\Debug\JPS - Vendor Inactivate Utility.exe.manifest
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Vendor Inactivate Utility Converted Vendors\JurisUtilityBase\obj\x86\Debug\JPS - Vendor Inactivate Utility.application
